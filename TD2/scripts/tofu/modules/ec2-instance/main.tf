@@ -13,7 +13,6 @@ resource "aws_security_group_rule" "allow_http_inbound" {
 }
 
 resource "aws_instance" "sample_app" {
-
   ami                    = var.ami_id
   instance_type          = var.instance_type
   vpc_security_group_ids = [aws_security_group.sample_app.id]
