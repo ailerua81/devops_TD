@@ -3,8 +3,8 @@ provider "aws" {
 }
 
 module "state" {
-  source = "github.com/brikis98/devops-book//ch5/tofu/modules/state-bucket"
+  source = "github.com/ailerua81/devops_TD//td5/scripts/tofu/modules/state-bucket"
 
   # TODO: fill in your own bucket name!
-  name = "fundamentals-of-devops-tofu-state"
+  name = "devops_td5_bucket_name"
 }
