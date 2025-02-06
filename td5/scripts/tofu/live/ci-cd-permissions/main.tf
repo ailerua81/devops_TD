@@ -25,6 +25,6 @@ module "iam_roles" {
   enable_iam_role_for_apply = true                                
 
   # TODO: fill in your own bucket and table name here!
-  tofu_state_bucket         = "devops_td5_bucket_name" 
-  tofu_state_dynamodb_table = "devops_td5_dynamodb_table" 
+  tofu_state_bucket         = "ap-devops-td5-bucket-name" 
+  tofu_state_dynamodb_table = "ap-devops-td5-dynamodb-table" 
 }
