@@ -6,6 +6,6 @@ terraform {
     region         = "us-east-2"                         
     encrypt        = true                                
     # TODO: fill in your own DynamoDB table name here!
-    dynamodb_table = "devops_td5_dynamodb_table" 
+    dynamodb_table = "ap-devops-td5-dynamodb-table" 
   }
 }
